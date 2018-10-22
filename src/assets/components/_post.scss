@@ -1,0 +1,21 @@
+.Post {
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  margin: 10px;
+  box-sizing: border-box;
+  flex: 0 0 48%;
+  cursor: pointer;
+  > h1 {
+    font-size: 1.2em;
+  }
+  .Author {
+    margin: 16px 0;
+    color: #ccc;
+  }
+  &:hover,
+  &:active {
+    background-color: #C0DDF5;
+  }
+}
